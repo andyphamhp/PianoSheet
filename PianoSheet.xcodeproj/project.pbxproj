@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F741B40291515450076493D /* PianoSheetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F741B3F291515450076493D /* PianoSheetApp.swift */; };
+		3F741B42291515450076493D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F741B41291515450076493D /* ContentView.swift */; };
+		3F741B44291515460076493D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F741B43291515460076493D /* Assets.xcassets */; };
+		3F741B47291515460076493D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F741B46291515460076493D /* Preview Assets.xcassets */; };
+		3F741B51291515460076493D /* PianoSheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F741B50291515460076493D /* PianoSheetTests.swift */; };
+		3F741B5B291515470076493D /* PianoSheetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F741B5A291515470076493D /* PianoSheetUITests.swift */; };
+		3F741B5D291515470076493D /* PianoSheetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F741B5C291515470076493D /* PianoSheetUITestsLaunchTests.swift */; };
+		3F959493291584D100A31A0D /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3F959492291584D100A31A0D /* FirebaseAnalyticsSwift */; };
+		3F959495291584D100A31A0D /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 3F959494291584D100A31A0D /* FirebaseMessaging */; };
+		3F9594982915876500A31A0D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F9594902915837F00A31A0D /* GoogleService-Info.plist */; };
+		3FBD5BA0298FAEB200EA96E1 /* PokerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD5B9F298FAEB200EA96E1 /* PokerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F741B4D291515460076493D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F741B34291515450076493D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F741B3B291515450076493D;
+			remoteInfo = PianoSheet;
+		};
+		3F741B57291515470076493D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F741B34291515450076493D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F741B3B291515450076493D;
+			remoteInfo = PianoSheet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F741B3C291515450076493D /* PianoSheetDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoSheetDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F741B3F291515450076493D /* PianoSheetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoSheetApp.swift; sourceTree = "<group>"; };
+		3F741B41291515450076493D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F741B43291515460076493D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F741B46291515460076493D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F741B4C291515460076493D /* PianoSheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoSheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F741B50291515460076493D /* PianoSheetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoSheetTests.swift; sourceTree = "<group>"; };
+		3F741B56291515470076493D /* PianoSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F741B5A291515470076493D /* PianoSheetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoSheetUITests.swift; sourceTree = "<group>"; };
+		3F741B5C291515470076493D /* PianoSheetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoSheetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F9594902915837F00A31A0D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3F9594972915861600A31A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3F95949A29165C7200A31A0D /* PianoSheetDev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PianoSheetDev.entitlements; sourceTree = "<group>"; };
+		3FBD5B9F298FAEB200EA96E1 /* PokerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F741B39291515450076493D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F959495291584D100A31A0D /* FirebaseMessaging in Frameworks */,
+				3F959493291584D100A31A0D /* FirebaseAnalyticsSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F741B49291515460076493D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F741B53291515470076493D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F741B33291515450076493D = {
+			isa = PBXGroup;
+			children = (
+				3F741B3E291515450076493D /* PianoSheet */,
+				3F9594962915853800A31A0D /* Assets */,
+				3F741B4F291515460076493D /* PianoSheetTests */,
+				3F741B59291515470076493D /* PianoSheetUITests */,
+				3F741B3D291515450076493D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F741B3D291515450076493D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F741B3C291515450076493D /* PianoSheetDev.app */,
+				3F741B4C291515460076493D /* PianoSheetTests.xctest */,
+				3F741B56291515470076493D /* PianoSheetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F741B3E291515450076493D /* PianoSheet */ = {
+			isa = PBXGroup;
+			children = (
+				3F9594972915861600A31A0D /* Info.plist */,
+				3F741B3F291515450076493D /* PianoSheetApp.swift */,
+				3F741B41291515450076493D /* ContentView.swift */,
+				3FBD5B9F298FAEB200EA96E1 /* PokerView.swift */,
+				3F741B45291515460076493D /* Preview Content */,
+			);
+			path = PianoSheet;
+			sourceTree = "<group>";
+		};
+		3F741B45291515460076493D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F741B46291515460076493D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F741B4F291515460076493D /* PianoSheetTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F741B50291515460076493D /* PianoSheetTests.swift */,
+			);
+			path = PianoSheetTests;
+			sourceTree = "<group>";
+		};
+		3F741B59291515470076493D /* PianoSheetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F741B5A291515470076493D /* PianoSheetUITests.swift */,
+				3F741B5C291515470076493D /* PianoSheetUITestsLaunchTests.swift */,
+			);
+			path = PianoSheetUITests;
+			sourceTree = "<group>";
+		};
+		3F9594962915853800A31A0D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3F95949A29165C7200A31A0D /* PianoSheetDev.entitlements */,
+				3F741B43291515460076493D /* Assets.xcassets */,
+				3F9594902915837F00A31A0D /* GoogleService-Info.plist */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F741B3B291515450076493D /* PianoSheetDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F741B60291515470076493D /* Build configuration list for PBXNativeTarget "PianoSheetDev" */;
+			buildPhases = (
+				3F741B38291515450076493D /* Sources */,
+				3F741B39291515450076493D /* Frameworks */,
+				3F741B3A291515450076493D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PianoSheetDev;
+			packageProductDependencies = (
+				3F959492291584D100A31A0D /* FirebaseAnalyticsSwift */,
+				3F959494291584D100A31A0D /* FirebaseMessaging */,
+			);
+			productName = PianoSheet;
+			productReference = 3F741B3C291515450076493D /* PianoSheetDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F741B4B291515460076493D /* PianoSheetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F741B63291515470076493D /* Build configuration list for PBXNativeTarget "PianoSheetTests" */;
+			buildPhases = (
+				3F741B48291515460076493D /* Sources */,
+				3F741B49291515460076493D /* Frameworks */,
+				3F741B4A291515460076493D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F741B4E291515460076493D /* PBXTargetDependency */,
+			);
+			name = PianoSheetTests;
+			productName = PianoSheetTests;
+			productReference = 3F741B4C291515460076493D /* PianoSheetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F741B55291515470076493D /* PianoSheetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F741B66291515470076493D /* Build configuration list for PBXNativeTarget "PianoSheetUITests" */;
+			buildPhases = (
+				3F741B52291515470076493D /* Sources */,
+				3F741B53291515470076493D /* Frameworks */,
+				3F741B54291515470076493D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F741B58291515470076493D /* PBXTargetDependency */,
+			);
+			name = PianoSheetUITests;
+			productName = PianoSheetUITests;
+			productReference = 3F741B56291515470076493D /* PianoSheetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F741B34291515450076493D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3F741B3B291515450076493D = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					3F741B4B291515460076493D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 3F741B3B291515450076493D;
+					};
+					3F741B55291515470076493D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 3F741B3B291515450076493D;
+					};
+				};
+			};
+			buildConfigurationList = 3F741B37291515450076493D /* Build configuration list for PBXProject "PianoSheet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F741B33291515450076493D;
+			packageReferences = (
+				3F959491291584D100A31A0D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 3F741B3D291515450076493D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F741B3B291515450076493D /* PianoSheetDev */,
+				3F741B4B291515460076493D /* PianoSheetTests */,
+				3F741B55291515470076493D /* PianoSheetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F741B3A291515450076493D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F741B47291515460076493D /* Preview Assets.xcassets in Resources */,
+				3F741B44291515460076493D /* Assets.xcassets in Resources */,
+				3F9594982915876500A31A0D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F741B4A291515460076493D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F741B54291515470076493D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F741B38291515450076493D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F741B42291515450076493D /* ContentView.swift in Sources */,
+				3F741B40291515450076493D /* PianoSheetApp.swift in Sources */,
+				3FBD5BA0298FAEB200EA96E1 /* PokerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F741B48291515460076493D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F741B51291515460076493D /* PianoSheetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F741B52291515470076493D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F741B5D291515470076493D /* PianoSheetUITestsLaunchTests.swift in Sources */,
+				3F741B5B291515470076493D /* PianoSheetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F741B4E291515460076493D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F741B3B291515450076493D /* PianoSheetDev */;
+			targetProxy = 3F741B4D291515460076493D /* PBXContainerItemProxy */;
+		};
+		3F741B58291515470076493D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F741B3B291515450076493D /* PianoSheetDev */;
+			targetProxy = 3F741B57291515470076493D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F741B5E291515470076493D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F741B5F291515470076493D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F741B61291515470076493D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PianoSheet/PianoSheetDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PianoSheet/Preview Content\"";
+				DEVELOPMENT_TEAM = HKXZTH4YA3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PianoSheet/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PianoSheetDev;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.musicmen.PianoSheetDev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F741B62291515470076493D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PianoSheetDev.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PianoSheet/Preview Content\"";
+				DEVELOPMENT_TEAM = HKXZTH4YA3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PianoSheet/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PianoSheetDev;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.musicmen.PianoSheetDev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F741B64291515470076493D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HKXZTH4YA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.musicmen.PianoSheetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PianoSheet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PianoSheet";
+			};
+			name = Debug;
+		};
+		3F741B65291515470076493D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HKXZTH4YA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.musicmen.PianoSheetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PianoSheet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PianoSheet";
+			};
+			name = Release;
+		};
+		3F741B67291515470076493D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HKXZTH4YA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.musicmen.PianoSheetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PianoSheet;
+			};
+			name = Debug;
+		};
+		3F741B68291515470076493D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HKXZTH4YA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.musicmen.PianoSheetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PianoSheet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F741B37291515450076493D /* Build configuration list for PBXProject "PianoSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F741B5E291515470076493D /* Debug */,
+				3F741B5F291515470076493D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F741B60291515470076493D /* Build configuration list for PBXNativeTarget "PianoSheetDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F741B61291515470076493D /* Debug */,
+				3F741B62291515470076493D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F741B63291515470076493D /* Build configuration list for PBXNativeTarget "PianoSheetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F741B64291515470076493D /* Debug */,
+				3F741B65291515470076493D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F741B66291515470076493D /* Build configuration list for PBXNativeTarget "PianoSheetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F741B67291515470076493D /* Debug */,
+				3F741B68291515470076493D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F959491291584D100A31A0D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F959492291584D100A31A0D /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F959491291584D100A31A0D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		3F959494291584D100A31A0D /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F959491291584D100A31A0D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3F741B34291515450076493D /* Project object */;
+}
